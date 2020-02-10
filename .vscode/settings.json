@@ -1,0 +1,23 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "python.linter": "flake8",
+    "breadcrumbs.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=250",
+        "--ignore=F403,F405",
+    ],
+    // "code-runner.executorMap":{
+    //     "python": "set PYTHONIOENCODING=utf8 && python"
+    // },
+    "python.formatting.autopep8Args": ["--max-line-length", "250"],
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "python.linting.enabled": false,
+    "python.linting.lintOnSave": false,
+    "python.pythonPath": "C:\\Users\\박종혁\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+
+
+}
